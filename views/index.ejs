@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet'href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+  <body>
+    <!-- <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+    <nav class="navbar navbar-inverse">
+       <div class="container-fluid">  -
+       
+        <div class="navbar-header">
+           <a class="navbar-brand" href="#">Dikshya</a> 
+        </div>
+        <ul class="nav navbar-nav">
+          <li id ="li"><a href="#">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li id ="li"><a href="/Teaching">Teaching Service Examination</a></li>
+              <li id ="li"><a href="/lokesewa">lokesewa</a></li>
+            </ul>
+          </li>
+          <li id ="li"><a href="/about">about</a></li>
+          <li id ="li"><a href="/contact">contact</a></li>
+          <li id ="li"><a href="/register">register</a></li>
+      
+        </ul>
+      </div>
+    </nav>
+
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/images/diksha.jpg" alt="Los Angeles" style="height:50%">
+            </div>
+      
+            <div class="item">
+              <img src="/images/siksha.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+           
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+   
+    <div class="container-1">
+      <h1>Courses</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/images/ali.jpg" target="_blank">
+              <img src="/images/ali.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p>Agriculture Officer</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/images/comp.jpg" target="_blank">
+              <img src="/images/comp.jpg" alt="Nature" style="width:100%">
+              <div class="caption">
+                <p>Computer Operator</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/images/ali.jpg" target="_blank">
+              <img src="/images/ali.jpg" alt="Nature" style="width:100%">
+              <div class="caption">
+                <p>Health Assistant</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/images/comp.jpg" target="_blank">
+              <img src="/images/comp.jpg" alt="Fjords" style="width:100%">
+              <div class="caption">
+                <p>Engineering</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-2">
+      <h2>Tutors</h2>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <a href="/images/add.jpg target="_blank">
+              <img src="/images/add.jpg" alt="Lights" style="width:90%">
+              <div class="caption">
+                <h>Mr.Rabindra Jha</h>
+                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                <a href="#" class="btn btn-primary">Book Classes</a>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <a href="/images/ape.jpg" target="_blank">
+              <img src="/images/ape.jpg" alt="Fjords" style="width:90%">
+              <div class="caption">
+                <h>Mrs.Rabina Tondon</h>
+                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                <a href="#" class="btn btn-primary">Book Classes</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <a href="/images/pipe.jpg" target="_blank">
+              <img src="/images/pipe.jpg" alt="Fjords" style="width:90%">
+              <div class="caption">
+                <h>Mrs.Sita Rana</h>
+                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                <a href="#" class="btn btn-primary">Book Classes</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <a href="/images/roat.jpg" target="_blank">
+              <img src="/images/roat.jpg" alt="Fjords" style="width:90%">
+              <div class="caption">
+                <h>Mr.Kumar Shrestha</h>
+                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                <a href="#" class="btn btn-primary">Book Classes</a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 class="mb-4">Reviews</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+Hope you all will get to know about our website through the user reviews.
+          </p>
+        </div>
+      </div>
+    
+      <div class="row text-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(22).webp"
+              class="rounded-circle shadow-1-strong" width="100" height="100" />
+          </div>
+          <p class="lead my-3 text-muted">
+One of the best apps which address all the issues regarding tutors, courses and other study materials.
+          </p>
+          <p class="font-italic font-weight-normal mb-0">- Anna Morian</p>
+        </div>
+        <div class="col-md-6 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp"
+              class="rounded-circle shadow-1-strong" width="100" height="100" />
+          </div>
+          <p class="lead my-3 text-muted">
+I was able to crack my lokesewa exam.I encourage you all to go through this website.
+          </p>
+          <p class="font-italic font-weight-normal mb-0">- Teresa May</p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-white">
+      <div class="container py-5">
+        <div class="row py-3">
+  
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Stories</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Press</a></li>
+            </ul>
+          </div>
+  
+
+          
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">FAQ</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Terms Of Use</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Security</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Sitemap</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4"> Office Address</h6>
+            <p class="text-muted mb-4">Baneshowr, Kathmandu</p>
+            <ul class="list-inline mt-4">
+              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="p-0 m-0 b-0">
+  
+     
+      <div class="bg-light py-2">
+        <div class="container text-center">
+          <p class="text-muted mb-0 py-2"> All rights reserved @copyright</p>
+          </div>
+        </div>
+      
+    </footer>
+
+
+      
+      
+  </body>
+</html>
